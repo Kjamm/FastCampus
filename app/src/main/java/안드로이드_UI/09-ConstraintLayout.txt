@@ -1,6 +1,6 @@
 ConstraintLayout
 - 제약을 통해서 뷰를 배치하는 컨테이너뷰
-- RelativeLayout에서 할수 있는 모든것이 가능하다
+- RelativeLayout에서 할수 있는 모든것이 가능하다, 따라서 RelativeLayout과 같이 사용할 필요 없다, linear layout과는 같이 사용시 유
 - 기능이 엄청나게 많다
 - 반대 방향으로 작용하는 두개의 제약을 동시에 적용하면 두 제약의 가운데에 배치된다
 
