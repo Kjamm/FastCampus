@@ -17,6 +17,7 @@ ConstraintLayout
                 - B Left_toLeftOf parent
 
 2> 여백
+- padding은 그냥 사용 가능 단 margin은,
 - 해당 방향으로 여백을 두기 위해서는 반드시 그쪽 방향에 제약이 있어야 한다
 - layout_marginLeft = 100dp
 - layout_constraintLeft_toLeftOf = parent
