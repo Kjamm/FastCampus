@@ -4,7 +4,7 @@ Acitivty
 - 화면을 그리는 기능 + 화면에서 발생할 수 있는 일들을 처리할 수 있는 기능이 내장
 
 - 특수한 Activity
-    - 런처 activity, main activity
+    - launcher activity, main activity
         - 앱이 실행될때 최초로 실행되는 activity
 
 
