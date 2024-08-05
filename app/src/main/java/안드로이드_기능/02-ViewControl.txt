@@ -7,9 +7,10 @@
 - xml에 존재는 하는 뷰를 activity로 가져오는 방법
     - findViewById
         - Id -> xml에서 부여한 view의 id
-    - kotlinx
+    - kotlinx (한때유행)
         - 귀찮은 findViewById과정을 생략가능 하다
         - deprecated 되었다
             - 가급적으면 사용을 피해야한다
     - databinding
+        - findViewById보다 성능이 좋아서 자주 사
         - 뷰와 데이터를 묶는다
