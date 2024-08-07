@@ -24,7 +24,7 @@ Stack 관리
     - FLAG_ACTIVITY_SINGLE_TOP (singleTop)
 
     - FLAG_ACTIVITY_NO_HISTORY
-        - 호출된 엑티비티는 스택에 쌓이지 않는다 (로딩)
+        - 호출된 엑티비티는 스택에 쌓이지 않는다 (뒤로 가기를 눌러도 보이지 않는 화면) (로딩)
     - FLAG_ACTIVITY_REORDER_TO_FRONT
         - 호출된 엑티비티가 스택에 존재할 경우 최상위로 올려준다
         - A B C -> B를 호출 -> A C B
