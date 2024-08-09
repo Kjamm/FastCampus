@@ -1,13 +1,13 @@
 ListView
 - 기본적인 동작원리는 addView와 동일하다
 - 어답터(Adapter)
-    - 데이터와 뷰를 짝지어 준다
-    - 요청시 해당 번째 데이터를 준다
-    - 데이터 변경되었을 때 갱신
-- BaseAdapter
+    - 데이터와 뷰를 짝지어 준다 (기본적인 역할)
+    - 요청시 해당 번째 데이터를 준다 (부가적인 기능)
+    - 데이터 변경되었을 때 갱신 (부가적인 기능)
+- BaseAdapter (기초가 되는 클래스)
     - ArrayAdapter : 배열 타입
     - CursorAdapter : 데이터 전용
-    - SimpleAdapter : 정적 XML
+    - SimpleAdapter : 정적 XML (언제 어디서든 똑같은 데이터가 나갈때)
 
 Addview -> ListView -> RecyclerView
 1. 개발하기 쉽다 (개발자를 위함)
